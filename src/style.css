@@ -1,0 +1,57 @@
+/* remember I said I wanted it to be fancy with a card for each movie?
+ Yeah...I probably spent too much time here. It really stands out now that
+ I can't get the darn thing to run build and actually display anything. */
+ 
+.app {
+    background-color: #f0f5f9;
+    padding: 20px;
+  }
+  
+  .movie-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .movie-card p {
+    margin-bottom: 10px;
+  }
+  
+  .movie-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .movie-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .movie-card a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+  }
+  
+  .movie-card a:hover {
+    text-decoration: underline;
+  }
+  
